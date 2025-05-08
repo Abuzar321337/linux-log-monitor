@@ -12,7 +12,7 @@ SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
 SENDER_EMAIL = "yoursenderemail"
 SENDER_PASSWORD = "yourgoogleapppassword"
-RECEIVER_EMAIL = "yourrecciveremail"
+RECEIVER_EMAIL = "yourreciveremail"
 
 # Suspicious activity patterns
 PATTERNS = {
