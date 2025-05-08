@@ -10,9 +10,9 @@ LOG_FILE = "/var/log/auth.log"  # Change if needed (e.g., /var/log/syslog)
 # Email Alert Configuration
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
-SENDER_EMAIL = "malikabuzar788@gmail.com"
-SENDER_PASSWORD = "fkfb tddd rnsa qqfn"
-RECEIVER_EMAIL = "mt0908874@gmail.com"
+SENDER_EMAIL = "yoursenderemail"
+SENDER_PASSWORD = "yourgoogleapppassword"
+RECEIVER_EMAIL = "yourrecciveremail"
 
 # Suspicious activity patterns
 PATTERNS = {
