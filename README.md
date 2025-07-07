@@ -11,8 +11,8 @@ When suspicious activity is found, an **email alert** is sent to the configured 
 ---
 
 ## 🚀 Features  
-✅ Real-time monitoring of system logs  
-✅ Detects security threats (failed SSH logins, root access, brute force)  
-✅ Sends **email alerts** when suspicious activity occurs  
-✅ Lightweight and runs in the background  
+ Real-time monitoring of system logs  
+ Detects security threats (failed SSH logins, root access, brute force)  
+ Sends **email alerts** when suspicious activity occurs  
+ Lightweight and runs in the background  
 
