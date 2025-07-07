@@ -4,24 +4,20 @@ import re
 import smtplib
 from email.mime.text import MIMEText
 
-# Log file path
-LOG_FILE = "/var/log/auth.log"  # Change if needed (e.g., /var/log/syslog)
+LOG_FILE = "/var/log/auth.log" 
 
-# Email Alert Configuration
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
 SENDER_EMAIL = "yoursenderemail"
 SENDER_PASSWORD = "yourgoogleapppassword"
 RECEIVER_EMAIL = "yourreceiveremail"
 
-# Suspicious activity patterns
 PATTERNS = {
     "Failed SSH Login": r"Failed password for",
     "Root Access": r"session opened for user root",
     "Brute Force Attack": r"Maximum authentication attempts exceeded",
 }
 
-# Function to send email alerts
 def send_email_alert(subject, message):
     try:
         msg = MIMEText(message)
@@ -38,7 +34,6 @@ def send_email_alert(subject, message):
     except Exception as e:
         print(f"[-] Failed to send email: {e}")
 
-# Function to monitor log file
 def monitor_log():
     print("[*] Monitoring log file for suspicious activity...")
 
